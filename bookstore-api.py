@@ -126,8 +126,8 @@ def remove_book(book):
 # and assign to the static route of ('/')
 @app.route('/')
 def home():
-    return "Welcome to YUNUS's Bookstore API Service"
-    return "look for /books  to see what we have"
+    return "Welcome to YUNUS's Bookstore API Service \
+        look for /books  to see what we have"
 
 # Write a function named `get_books` which returns all books in JSON format for `GET`,
 # and assign to the static route of ('/books')
